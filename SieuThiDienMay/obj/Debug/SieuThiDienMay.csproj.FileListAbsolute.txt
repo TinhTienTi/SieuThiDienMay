@@ -53,4 +53,3 @@ E:\SieuThiDienMay\SieuThiDienMay\obj\Debug\SieuThiDienMay.csproj.CoreCompileInpu
 E:\SieuThiDienMay\SieuThiDienMay\obj\Debug\SieuThiDienMay.csproj.CopyComplete
 E:\SieuThiDienMay\SieuThiDienMay\obj\Debug\SieuThiDienMay.dll
 E:\SieuThiDienMay\SieuThiDienMay\obj\Debug\SieuThiDienMay.pdb
-E:\SieuThiDienMay\SieuThiDienMay\obj\Debug\SieuThiDienMay.csprojAssemblyReference.cache

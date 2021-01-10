@@ -13,5 +13,37 @@ namespace SieuThiDienMay.Areas.Admin.Controllers
         {
             return View();
         }
+        public ActionResult _Error400()
+        {
+            return View();
+        }
+        public ActionResult _Error401()
+        {
+            return View();
+        }
+        public ActionResult _Error403()
+        {
+            return View();
+        }
+        public ActionResult _Error404()
+        {
+            return View();
+        }
+        public ActionResult _Error404_2()
+        {
+            return View();
+        }
+        public ActionResult _Error500()
+        {
+            return View();
+        }
+        public ActionResult _Error501()
+        {
+            return View();
+        }
+        public ActionResult _Error503()
+        {
+            return View();
+        }
     }
 }

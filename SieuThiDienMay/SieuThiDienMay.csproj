@@ -212,6 +212,14 @@
     <Content Include="Areas\Admin\Views\Shared\_Error404_2.cshtml" />
     <Content Include="Areas\Admin\Views\Shared\_Error400.cshtml" />
     <Content Include="Areas\Admin\Views\Shared\_Error401.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\_Error404.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\_Error400.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\_Error401.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\_Error403.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\_Error404_2.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\_Error500.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\_Error501.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\_Error503.cshtml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
