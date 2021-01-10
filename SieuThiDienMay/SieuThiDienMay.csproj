@@ -117,6 +117,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_GlobalResources\stdm.language.vi-vn.designer.cs">
+      <DependentUpon>stdm.language.vi-vn.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App_GlobalResources\stdm.language.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>stdm.language.resx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -135,6 +145,14 @@
     <Content Include="Areas\Admin\Resources\css\kendo\kendo.bootstrap.mobile.min.css" />
     <Content Include="Areas\Admin\Resources\css\styles.css" />
     <Content Include="Areas\Admin\Resources\img\favicon.png" />
+    <Content Include="Areas\Admin\Resources\img\illustrattions\400-error-bad-request.svg" />
+    <Content Include="Areas\Admin\Resources\img\illustrattions\401-error-unauthorized.svg" />
+    <Content Include="Areas\Admin\Resources\img\illustrattions\403-error-forbidden.svg" />
+    <Content Include="Areas\Admin\Resources\img\illustrattions\404-error-with-a-cute-animal.svg" />
+    <Content Include="Areas\Admin\Resources\img\illustrattions\404-error.svg" />
+    <Content Include="Areas\Admin\Resources\img\illustrattions\500-internal-server-error.svg" />
+    <Content Include="Areas\Admin\Resources\img\illustrattions\503-error-service-unavailable.svg" />
+    <Content Include="Areas\Admin\Resources\img\illustrattions\504-error-gateway-timeout.svg" />
     <Content Include="Areas\Admin\Resources\img\illustrattions\profiles\profile-1.png" />
     <Content Include="Areas\Admin\Resources\img\illustrattions\profiles\profile-2.png" />
     <Content Include="Areas\Admin\Resources\img\illustrattions\profiles\profile-3.png" />
@@ -186,6 +204,14 @@
     <Content Include="Areas\Admin\Resources\css\kendo\kendo.common.min.css.map" />
     <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
     <Content Include="Areas\Admin\Views\Home\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_Error404_1.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_Error403.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_Error500.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_Error504.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_Error503.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_Error404_2.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_Error400.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_Error401.cshtml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -231,6 +257,18 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\stdm.language.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>stdm.language.Designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\stdm.language.vi-vn.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>stdm.language.vi-vn.designer.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
